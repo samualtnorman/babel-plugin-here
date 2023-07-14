@@ -1,0 +1,29 @@
+{
+	"name": "babel-plugin-here",
+	"version": "0.0.1",
+	"description": "Replace instances of `HERE` keyword with code position strings",
+	"keywords": [
+		"babel",
+		"plugin",
+		"here"
+	],
+	"homepage": "https://github.com/samualtnorman/babel-plugin-here#readme",
+	"bugs": {
+		"url": "https://github.com/samualtnorman/babel-plugin-here/issues",
+		"email": "me@samual.uk"
+	},
+	"license": "MIT",
+	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
+	"dependencies": {
+		"@babel/types": "^7.22.5"
+	},
+	"devDependencies": {
+		"@types/babel__core": "^7.20.1",
+		"@types/node": "^16.18.38"
+	},
+	"repository": "github:samualtnorman/babel-plugin-here",
+	"engines": {
+		"node": ">=16"
+	},
+	"type": "module"
+}
