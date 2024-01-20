@@ -13,6 +13,7 @@
 		"email": "me@samual.uk"
 	},
 	"license": "MIT",
+	"main": "index.js",
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
 		"@babel/types": "^7.22.5"
