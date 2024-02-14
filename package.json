@@ -1,7 +1,7 @@
 {
 	"name": "babel-plugin-here",
 	"version": "0.0.1",
-	"description": "Replace instances of HERE keyword with code position strings",
+	"description": "Replace instances of HERE identifier with code position strings",
 	"keywords": [
 		"babel",
 		"plugin",
@@ -16,15 +16,24 @@
 	"main": "index.js",
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
-		"@babel/types": "^7.22.5"
+		"@babel/types": "^7.23.9",
+		"@samual/lib": "^0.9.1"
 	},
 	"devDependencies": {
-		"@types/babel__core": "^7.20.1",
-		"@types/node": "^16.18.38"
+		"@babel/preset-typescript": "^7.23.3",
+		"@rollup/plugin-babel": "^6.0.4",
+		"@total-typescript/ts-reset": "^0.5.1",
+		"@types/babel__core": "^7.20.5",
+		"@types/node": "~18.0.6",
+		"babel-plugin-here": "^0.0.1",
+		"rollup": "^4.10.0",
+		"rollup-plugin-prettier": "^4.1.1",
+		"typescript": "^5.3.3"
 	},
 	"repository": "github:samualtnorman/babel-plugin-here",
 	"engines": {
-		"node": ">=16"
+		"node": "^18 || >=20",
+		"pnpm": "^8.15.2"
 	},
 	"type": "module"
 }
