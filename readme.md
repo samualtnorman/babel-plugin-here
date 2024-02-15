@@ -11,7 +11,7 @@ This plugin is useful when you don't have sourcemaps and you're looking at error
 npm install --save-dev babel-plugin-here
 ```
 
-### Create Babel config
+### Babel config
 
 `babel.config.json`
 
@@ -21,11 +21,15 @@ npm install --save-dev babel-plugin-here
 }
 ```
 
-### Create type declaration (if using TypeScript)
+### TSConfig (if using TypeScript)
 
-`env.d.ts`
+`tsconfig.json`
 ```ts
-declare const HERE: string
+{
+	"compilerOptions": {
+		"types": [ "babel-plugin-here/env" ]
+	}
+}
 ```
 
 ## Example
