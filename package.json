@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-here",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"description": "Replace instances of HERE identifier with code position strings",
 	"keywords": [
 		"babel",
