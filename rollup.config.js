@@ -1,7 +1,7 @@
 #!node_modules/.bin/rollup --config
 import babelPresetTypescript from "@babel/preset-typescript"
 import { babel } from "@rollup/plugin-babel"
-import babelPluginHere from "babel-plugin-here"
+import { babelPluginHere } from "babel-plugin-here"
 import prettier from "rollup-plugin-prettier"
 
 /** @type {import("rollup").RollupOptions} */ export default {
@@ -13,7 +13,7 @@ import prettier from "rollup-plugin-prettier"
 			babelHelpers: "bundled",
 			extensions: [ ".ts" ],
 			presets: [ babelPresetTypescript ],
-			plugins: [ babelPluginHere ]
+			plugins: [ babelPluginHere() ]
 		}),
 		prettier({
 			parser: "espree",
