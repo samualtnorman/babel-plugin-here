@@ -35,5 +35,6 @@
 		"node": "^18 || >=20",
 		"pnpm": "^8.15.2"
 	},
-	"type": "module"
+	"type": "module",
+	"private":  true
 }
