@@ -9,5 +9,5 @@ delete packageJson.devDependencies
 delete packageJson.engines
 
 makeDirectorySync("dist", { recursive: true })
-writeFileSync("dist/package.json", JSON.stringify(packageJson))
+writeFileSync("dist/package.json", JSON.stringify(packageJson, undefined, "\t"))
 process.exit()
