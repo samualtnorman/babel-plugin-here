@@ -40,6 +40,8 @@ npm install --save-dev babel-plugin-here
 console.log(HERE)
 ```
 
+### Out
+
 `dist/foo.js`
 
 ```js
