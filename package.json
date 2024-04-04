@@ -20,12 +20,12 @@
 		"@samual/lib": "^0.10.1"
 	},
 	"devDependencies": {
-		"@samual/rollup-config": "0.1.0-f51f224",
+		"@samual/rollup-config": "0.0.1",
 		"@total-typescript/ts-reset": "^0.5.1",
 		"@types/babel__core": "^7.20.5",
 		"@types/node": "~18.0.6",
 		"@types/semver": "^7.5.8",
-		"babel-plugin-here": "1.1.0-dc49d97",
+		"babel-plugin-here": "1.0.1",
 		"rollup": "^4.14.0",
 		"semver": "^7.6.0",
 		"typescript": "^5.4.3"

@@ -14,8 +14,8 @@ dependencies:
 
 devDependencies:
   '@samual/rollup-config':
-    specifier: 0.1.0-f51f224
-    version: 0.1.0-f51f224(@babel/core@7.24.4)(@types/babel__core@7.20.5)(prettier@3.2.5)(rollup@4.14.0)
+    specifier: 0.0.1
+    version: 0.0.1(@babel/core@7.24.4)(@types/babel__core@7.20.5)(prettier@3.2.5)(rollup@4.14.0)
   '@total-typescript/ts-reset':
     specifier: ^0.5.1
     version: 0.5.1
@@ -29,8 +29,8 @@ devDependencies:
     specifier: ^7.5.8
     version: 7.5.8
   babel-plugin-here:
-    specifier: 1.1.0-dc49d97
-    version: 1.1.0-dc49d97
+    specifier: 1.0.1
+    version: 1.0.1
   rollup:
     specifier: ^4.14.0
     version: 4.14.0
@@ -1501,20 +1501,8 @@ packages:
     resolution: {integrity: sha512-DW+Cx3RwmvSUvtpcZd7NqUCu4kzCqn/Bs5Ybl4GQSn9XF4hPud+zaEuODNc+g2uLt2jH+8bYuANQGJMaDnSCZQ==}
     engines: {node: ^18 || >=20}
 
-  /@samual/lib@0.11.0-e3b2e76:
-    resolution: {integrity: sha512-2Z7xOEn/o0V+qM4xEIWnmEhSAHGmfXbsH/KZadGR6dX2EBplNlST9Z3xuUH4S7HGo0LU4i7iIx75S0O5rLj92A==}
-    engines: {node: ^18 || >=20}
-    dev: true
-
-  /@samual/lib@0.9.1:
-    resolution: {integrity: sha512-Sotk9j4UtJH0nchK9qIxYShZUu6LKl7mKl+F39aY8hba0EbSQ7dJ17m2vBGAcz5K5aodHJ1E72+6L8e405LMqQ==}
-    engines: {node: '>=20'}
-    optionalDependencies:
-      valibot: 0.25.0
-    dev: true
-
-  /@samual/rollup-config@0.1.0-f51f224(@babel/core@7.24.4)(@types/babel__core@7.20.5)(prettier@3.2.5)(rollup@4.14.0):
-    resolution: {integrity: sha512-rMQV/kf93yXotApq8JA4KpLVKgnTXsVSW47tVrgk2J8owo6CXnRJuK2Qsp3tVAaaGUxv7aVd8mhycA+eEL2BSQ==}
+  /@samual/rollup-config@0.0.1(@babel/core@7.24.4)(@types/babel__core@7.20.5)(prettier@3.2.5)(rollup@4.14.0):
+    resolution: {integrity: sha512-QOLYtEqpCSl31sWti96Mg94ddNH45R+nayGuWPzF/orLYAFy+zEMVEqznpyA+Hv+4H3hNX7/sZBCudCmhRm+pw==}
     engines: {node: ^18 || >=20}
     dependencies:
       '@babel/preset-env': 7.24.4(@babel/core@7.24.4)
@@ -1522,8 +1510,8 @@ packages:
       '@rollup/plugin-babel': 6.0.4(@babel/core@7.24.4)(@types/babel__core@7.20.5)(rollup@4.14.0)
       '@rollup/plugin-node-resolve': 15.2.3(rollup@4.14.0)
       '@rollup/plugin-terser': 0.4.4(rollup@4.14.0)
-      '@samual/lib': 0.11.0-e3b2e76
-      babel-plugin-here: 1.0.0
+      '@samual/lib': 0.10.1
+      babel-plugin-here: 1.0.1
       babel-plugin-vitest: 0.0.0
       rollup-plugin-prettier: 4.1.1(prettier@3.2.5)(rollup@4.14.0)
     transitivePeerDependencies:
@@ -1603,15 +1591,8 @@ packages:
       color-convert: 1.9.3
     dev: true
 
-  /babel-plugin-here@1.0.0:
-    resolution: {integrity: sha512-7YRnHUiOVOLsRs04vZ4XofrV44DBlxHsOowAGY13mHqkSNYuvtMA56KYaiMjWJoGg+QBI6X1TAFErcn51p65/Q==}
-    dependencies:
-      '@babel/types': 7.24.0
-      '@samual/lib': 0.9.1
-    dev: true
-
-  /babel-plugin-here@1.1.0-dc49d97:
-    resolution: {integrity: sha512-snVcLfpMt6+FlWP/U3NKIHfV7BF2I1s4L1bbYdbo9HqhVGnP0nsAeNgWZH47fBfkIGLE6Df9Ip6kMJUEngEFSg==}
+  /babel-plugin-here@1.0.1:
+    resolution: {integrity: sha512-hbf0ZCJHrolCG6j4HbF6Fz0MSR+BQLPwBtQdEAie/+NI5PW5Dd9269oIAA1pQlo3t91lqPMU5dBFlOoPkofytQ==}
     dependencies:
       '@babel/types': 7.24.0
       '@samual/lib': 0.10.1
@@ -2104,12 +2085,6 @@ packages:
       escalade: 3.1.2
       picocolors: 1.0.0
     dev: true
-
-  /valibot@0.25.0:
-    resolution: {integrity: sha512-cmD0ca15oyAbT75iYLNW6uU6doAeIwYfOshpXka/E1Bx4frzbkrgb7gvkI7K0YK/DVOksei4FfxWfRoBP3NFTg==}
-    requiresBuild: true
-    dev: true
-    optional: true
 
   /yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
