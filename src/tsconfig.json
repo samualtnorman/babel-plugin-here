@@ -3,7 +3,7 @@
 	"compilerOptions": {
 		"declaration": true,
 		"outDir": "../dist",
-		"types": [ "@total-typescript/ts-reset", "babel-plugin-here/env", "node" ],
+		"types": [ "@total-typescript/ts-reset", "node" ],
 		"rootDir": ".",
 		"module": "es2022",
 		"moduleResolution": "bundler",
