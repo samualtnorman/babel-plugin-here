@@ -16,7 +16,13 @@ export const babelPluginHere = (): PluginObj => ({
 			)
 
 			path.scope.crawl()
-			const filePath = Path.relative(".", ensure(this.file.opts.filename, HERE))
+			assert(this.file.opts.filename, HERE)
+			const questionMarkIndex = this.file.opts.filename.indexOf("?")
+
+			const filePath = Path.relative(
+				".",
+				questionMarkIndex > 0 ? this.file.opts.filename.slice(0, questionMarkIndex) : this.file.opts.filename
+			)
 
 			for (const referencePath of ensure(path.scope.getBinding("HERE"), HERE).referencePaths) {
 				assert(referencePath.node.loc, HERE)
