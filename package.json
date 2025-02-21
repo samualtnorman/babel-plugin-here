@@ -16,7 +16,7 @@
 	"exports": "./index.js",
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
-		"@babel/types": "^7.26.0",
+		"@babel/types": "^7.0.0",
 		"@samual/lib": "~0.13.0"
 	},
 	"devDependencies": {
