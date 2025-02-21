@@ -32,7 +32,7 @@
 	"repository": "github:samualtnorman/babel-plugin-here",
 	"engines": {
 		"node": "^18.20 || ^20.10 || >=22",
-		"pnpm": "^9"
+		"pnpm": "^10"
 	},
 	"type": "module",
 	"private": true
