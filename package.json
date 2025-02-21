@@ -17,7 +17,7 @@
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
 		"@babel/types": "^7.0.0",
-		"@samual/lib": "~0.13.0"
+		"@samual/lib": "0.13.1-4031e7a"
 	},
 	"devDependencies": {
 		"@samual/rollup-config": "^0.1.1",
