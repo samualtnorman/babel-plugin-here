@@ -35,7 +35,10 @@
 	},
 	"type": "module",
 	"exports": {
-		".": "./index.js"
+		".": "./index.js",
+		"./env": {
+			"types": "./env.d.ts"
+		}
 	},
 	"private": true
 }
