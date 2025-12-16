@@ -5,4 +5,4 @@ rm -rf dist
 scripts/emit-dts.sh
 scripts/emit-package-json.js
 scripts/eta.js < src/readme.md > dist/readme.md
-cp readme.md src/env.d.ts dist
+cp readme.md LICENSE src/env.d.ts dist
