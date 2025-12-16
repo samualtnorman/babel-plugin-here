@@ -15,5 +15,5 @@ jobs:
       with: { node-version: "${{matrix.node-version}}", registry-url: 'https://registry.npmjs.org', cache: pnpm }
 
     - run: echo $PWD/node_modules/.bin:$PATH > $GITHUB_PATH
-    - run: scripts/package.sh
+    - run: scripts/npm.sh
     - run: scripts/test.sh
