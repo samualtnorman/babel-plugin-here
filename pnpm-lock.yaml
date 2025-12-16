@@ -11,9 +11,9 @@ importers:
       '@babel/types':
         specifier: ^7.28.4
         version: 7.28.4
-      '@sn/assert':
-        specifier: jsr:0.0.1-fc7f76d
-        version: '@jsr/sn__assert@0.0.1-fc7f76d'
+      '@samual/assert':
+        specifier: 0.0.1-fc7f76d
+        version: 0.0.1-fc7f76d
     devDependencies:
       '@samual/rolldown-config':
         specifier: jsr:0.0.1-1055660
@@ -588,12 +588,6 @@ packages:
   '@jsr/samual__rolldown-config@0.0.1-1055660':
     resolution: {integrity: sha512-hH3GL6z8eyxNE3Xzh3djmGwLqOUDJjeaToRRR9EQN94sNZrjeGGoInom/tB0j0OJOIUlf7VKKRySJBuID7hvMA==, tarball: https://npm.jsr.io/~/11/@jsr/samual__rolldown-config/0.0.1-1055660.tgz}
 
-  '@jsr/samual__types@0.0.2-23ffc7f':
-    resolution: {integrity: sha512-R5J5yovA/JwAWcbH3DfuMpU1zPNApN+4Q69c1gyhBa9mkTfx7gFpY7pJTzsdO9uIrCLzmsABuM9Wg65jgYXttw==, tarball: https://npm.jsr.io/~/11/@jsr/samual__types/0.0.2-23ffc7f.tgz}
-
-  '@jsr/sn__assert@0.0.1-fc7f76d':
-    resolution: {integrity: sha512-zyi9CyidAMCPKfrQikeG+np0Lfhw98A5FT49zMtXVcPW/oXvepU3X+7bEfvwWz9+X2B1KmvawwARf9rZTuCBBw==, tarball: https://npm.jsr.io/~/11/@jsr/sn__assert/0.0.1-fc7f76d.tgz}
-
   '@napi-rs/wasm-runtime@1.0.7':
     resolution: {integrity: sha512-SeDnOO0Tk7Okiq6DbXmmBODgOAb9dp9gjlphokTUxmt8U3liIP1ZsozBahH69j/RJv+Rfs6IwUKHTgQYJ/HBAw==}
 
@@ -827,6 +821,10 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@samual/assert@0.0.1-fc7f76d':
+    resolution: {integrity: sha512-+68V7PoM0hc8LvPBmJMNcQfoKni81zQ8SraOtA14juqEkr4j4XcjkfvQM4cnESs9+bKPhmH+X28hGN9NavXESg==}
+    engines: {node: ^20.10 || ^22 || >=24}
+
   '@samual/lib@0.13.1-5f3d742':
     resolution: {integrity: sha512-bncLPtRBTnpi2ktNlVHwMix+SO2EcrTQHfIWVzEJ9Bm1JD/QX5rhaD4D4vleeM57sOJMXToRfgKX6NXUTT3JQA==}
     engines: {node: ^18.20 || ^20.10 || >=22}
@@ -834,6 +832,10 @@ packages:
   '@samual/lib@0.13.1-e3379e2':
     resolution: {integrity: sha512-CNXJ6WpxCzgzr8Yz0AxN9p1P6a6W7hs7XVLj6C6MJHe8lTZPZ9GtZlkox4x69u+YqkDJ5UkVOjm6HMHMaF06KA==}
     engines: {node: ^18.20 || ^20.10 || >=22}
+
+  '@samual/types@0.0.2-23ffc7f':
+    resolution: {integrity: sha512-6vqdhFUB2mcW+E2S+OdLLXuBZeg7+GL6ocAq4XqD7OiTG24MOnvFpiTDk2XxkBgAYHmVqfX/tABfgYAros1a3w==}
+    engines: {node: ^20.10 || >=22}
 
   '@total-typescript/ts-reset@0.6.1':
     resolution: {integrity: sha512-cka47fVSo6lfQDIATYqb/vO1nvFfbPw7uWLayIXIhGETj0wcOOlrlkobOMDNQOFr9QOafegUPq13V2+6vtD7yg==}
@@ -1885,12 +1887,6 @@ snapshots:
       - rollup
       - supports-color
 
-  '@jsr/samual__types@0.0.2-23ffc7f': {}
-
-  '@jsr/sn__assert@0.0.1-fc7f76d':
-    dependencies:
-      '@jsr/samual__types': 0.0.2-23ffc7f
-
   '@napi-rs/wasm-runtime@1.0.7':
     dependencies:
       '@emnapi/core': 1.5.0
@@ -2039,9 +2035,15 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.52.4':
     optional: true
 
+  '@samual/assert@0.0.1-fc7f76d':
+    dependencies:
+      '@samual/types': 0.0.2-23ffc7f
+
   '@samual/lib@0.13.1-5f3d742': {}
 
   '@samual/lib@0.13.1-e3379e2': {}
+
+  '@samual/types@0.0.2-23ffc7f': {}
 
   '@total-typescript/ts-reset@0.6.1': {}
 

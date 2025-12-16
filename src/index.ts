@@ -1,6 +1,6 @@
 import type { PluginObj } from "@babel/core"
 import * as t from "@babel/types"
-import { assert, expect } from "@sn/assert"
+import { assert, expect } from "@samual/assert"
 import * as Path from "path"
 
 export const babelPluginHere = (): PluginObj => ({
