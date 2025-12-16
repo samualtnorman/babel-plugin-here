@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 export TARGET=jsr
-export JSR_NAME=@sn/assert
+export JSR_NAME=@sn/babel-plugin-here
 rm dist --recursive --force
 ./rolldown.config.js
 scripts/emit-dts.sh
