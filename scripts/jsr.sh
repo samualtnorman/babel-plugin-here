@@ -5,6 +5,6 @@ export JSR_NAME=@sn/assert
 rm dist --recursive --force
 ./rolldown.config.js
 scripts/emit-dts.sh
-cp LICENSE dist
+cp LICENSE src/env.d.ts dist
 scripts/eta.js < src/readme.md | scripts/prepend-readme.js dist/default.d.ts
 scripts/emit-jsr-json.js
