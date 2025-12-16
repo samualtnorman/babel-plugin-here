@@ -12,8 +12,8 @@ importers:
         specifier: ^7.28.4
         version: 7.28.4
       '@sn/assert':
-        specifier: jsr:0.0.1-c23cf53
-        version: '@jsr/sn__assert@0.0.1-c23cf53'
+        specifier: jsr:0.0.1-fc7f76d
+        version: '@jsr/sn__assert@0.0.1-fc7f76d'
     devDependencies:
       '@samual/rolldown-config':
         specifier: jsr:0.0.1-1055660
@@ -591,8 +591,8 @@ packages:
   '@jsr/samual__types@0.0.2-23ffc7f':
     resolution: {integrity: sha512-R5J5yovA/JwAWcbH3DfuMpU1zPNApN+4Q69c1gyhBa9mkTfx7gFpY7pJTzsdO9uIrCLzmsABuM9Wg65jgYXttw==, tarball: https://npm.jsr.io/~/11/@jsr/samual__types/0.0.2-23ffc7f.tgz}
 
-  '@jsr/sn__assert@0.0.1-c23cf53':
-    resolution: {integrity: sha512-RLAe2mHO6YYvM/Ki/Q+BvuHkQE9L5uBy2AzarvlgLvb+I86KCc08SYc8+C2jnkyefJkJD833lABYgcaX9CaFag==, tarball: https://npm.jsr.io/~/11/@jsr/sn__assert/0.0.1-c23cf53.tgz}
+  '@jsr/sn__assert@0.0.1-fc7f76d':
+    resolution: {integrity: sha512-zyi9CyidAMCPKfrQikeG+np0Lfhw98A5FT49zMtXVcPW/oXvepU3X+7bEfvwWz9+X2B1KmvawwARf9rZTuCBBw==, tarball: https://npm.jsr.io/~/11/@jsr/sn__assert/0.0.1-fc7f76d.tgz}
 
   '@napi-rs/wasm-runtime@1.0.7':
     resolution: {integrity: sha512-SeDnOO0Tk7Okiq6DbXmmBODgOAb9dp9gjlphokTUxmt8U3liIP1ZsozBahH69j/RJv+Rfs6IwUKHTgQYJ/HBAw==}
@@ -1887,7 +1887,7 @@ snapshots:
 
   '@jsr/samual__types@0.0.2-23ffc7f': {}
 
-  '@jsr/sn__assert@0.0.1-c23cf53':
+  '@jsr/sn__assert@0.0.1-fc7f76d':
     dependencies:
       '@jsr/samual__types': 0.0.2-23ffc7f
 

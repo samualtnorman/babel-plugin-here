@@ -16,7 +16,7 @@
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
 		"@babel/types": "^7.28.4",
-		"@sn/assert": "jsr:0.0.1-c23cf53"
+		"@sn/assert": "jsr:0.0.1-fc7f76d"
 	},
 	"devDependencies": {
 		"@samual/rolldown-config": "jsr:0.0.1-1055660",
