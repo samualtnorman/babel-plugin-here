@@ -24,6 +24,7 @@
 		"@types/babel__core": "^7.20.5",
 		"@types/node": "~20.10.8",
 		"@types/semver": "^7.7.1",
+		"eta": "^4.5.0",
 		"rolldown": "1.0.0-beta.43",
 		"semver": "^7.7.3",
 		"typescript": "^5.9.3"
