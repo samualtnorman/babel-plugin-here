@@ -12,8 +12,8 @@ importers:
         specifier: ^7.28.4
         version: 7.28.4
       '@samual/assert':
-        specifier: 0.0.1-da0fbad
-        version: 0.0.1-da0fbad
+        specifier: ^0.0.1
+        version: 0.0.1
       '@types/babel__core':
         specifier: ^7.20.5
         version: 7.20.5
@@ -842,8 +842,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@samual/assert@0.0.1-da0fbad':
-    resolution: {integrity: sha512-aaLA5u6LwNhbR+iz5FxmQeqzSf2nlXpmDmPa/Vq5KPm1WtMsakT+p1GAXsyKIo92TRXHob2ETasHbF/fl9Dzmw==}
+  '@samual/assert@0.0.1':
+    resolution: {integrity: sha512-cspA34Z+N+pfq1jTnk+p9/qYj2+sdxI2QNijuF40U+yyRT7D33dX1H+tM0XS+B8se1JTxhJhMHQa2nt5k+hosw==}
     engines: {node: ^20.10 || ^22 || >=24}
 
   '@samual/lib@0.13.1-5f3d742':
@@ -854,8 +854,8 @@ packages:
     resolution: {integrity: sha512-CNXJ6WpxCzgzr8Yz0AxN9p1P6a6W7hs7XVLj6C6MJHe8lTZPZ9GtZlkox4x69u+YqkDJ5UkVOjm6HMHMaF06KA==}
     engines: {node: ^18.20 || ^20.10 || >=22}
 
-  '@samual/types@0.0.2-23ffc7f':
-    resolution: {integrity: sha512-6vqdhFUB2mcW+E2S+OdLLXuBZeg7+GL6ocAq4XqD7OiTG24MOnvFpiTDk2XxkBgAYHmVqfX/tABfgYAros1a3w==}
+  '@samual/types@0.0.2':
+    resolution: {integrity: sha512-iRbfdz4Kc6fg1IYz0KughcbX8JeMynPiaPyGEprnFC9ROdR6Pxlg0VZxGgIWkMTrAxaCoo90lgfGlWzvIni7kg==}
     engines: {node: ^20.10 || >=22}
 
   '@total-typescript/ts-reset@0.6.1':
@@ -2072,15 +2072,15 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.52.4':
     optional: true
 
-  '@samual/assert@0.0.1-da0fbad':
+  '@samual/assert@0.0.1':
     dependencies:
-      '@samual/types': 0.0.2-23ffc7f
+      '@samual/types': 0.0.2
 
   '@samual/lib@0.13.1-5f3d742': {}
 
   '@samual/lib@0.13.1-e3379e2': {}
 
-  '@samual/types@0.0.2-23ffc7f': {}
+  '@samual/types@0.0.2': {}
 
   '@total-typescript/ts-reset@0.6.1': {}
 
