@@ -19,8 +19,8 @@ importers:
         version: 7.20.5
     devDependencies:
       '@samual/rolldown-config':
-        specifier: jsr:0.0.1-1055660
-        version: '@jsr/samual__rolldown-config@0.0.1-1055660(@types/babel__core@7.20.5)(prettier@3.6.2)(rollup@4.52.4)'
+        specifier: 0.0.1-1055660
+        version: 0.0.1-1055660(@types/babel__core@7.20.5)(prettier@3.6.2)(rollup@4.52.4)
       '@total-typescript/ts-reset':
         specifier: ^0.6.1
         version: 0.6.1
@@ -591,9 +591,6 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@jsr/samual__rolldown-config@0.0.1-1055660':
-    resolution: {integrity: sha512-hH3GL6z8eyxNE3Xzh3djmGwLqOUDJjeaToRRR9EQN94sNZrjeGGoInom/tB0j0OJOIUlf7VKKRySJBuID7hvMA==, tarball: https://npm.jsr.io/~/11/@jsr/samual__rolldown-config/0.0.1-1055660.tgz}
-
   '@napi-rs/wasm-runtime@1.0.7':
     resolution: {integrity: sha512-SeDnOO0Tk7Okiq6DbXmmBODgOAb9dp9gjlphokTUxmt8U3liIP1ZsozBahH69j/RJv+Rfs6IwUKHTgQYJ/HBAw==}
 
@@ -853,6 +850,10 @@ packages:
   '@samual/lib@0.13.1-e3379e2':
     resolution: {integrity: sha512-CNXJ6WpxCzgzr8Yz0AxN9p1P6a6W7hs7XVLj6C6MJHe8lTZPZ9GtZlkox4x69u+YqkDJ5UkVOjm6HMHMaF06KA==}
     engines: {node: ^18.20 || ^20.10 || >=22}
+
+  '@samual/rolldown-config@0.0.1-1055660':
+    resolution: {integrity: sha512-p2dNuv1++H7z5RWbFwzFGsn89KybbLunQZLGQ8ni/i1p/AQliDk9NZhrJ6D6SHN/nCn4mtQ4478GkmuQaX+7lQ==}
+    engines: {node: ^20.10 || ^22 || >=24}
 
   '@samual/types@0.0.2':
     resolution: {integrity: sha512-iRbfdz4Kc6fg1IYz0KughcbX8JeMynPiaPyGEprnFC9ROdR6Pxlg0VZxGgIWkMTrAxaCoo90lgfGlWzvIni7kg==}
@@ -1904,26 +1905,6 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@jsr/samual__rolldown-config@0.0.1-1055660(@types/babel__core@7.20.5)(prettier@3.6.2)(rollup@4.52.4)':
-    dependencies:
-      '@babel/core': 7.28.4
-      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.28.4)
-      '@babel/preset-env': 7.28.3(@babel/core@7.28.4)
-      '@babel/preset-typescript': 7.27.1(@babel/core@7.28.4)
-      '@rollup/plugin-babel': 6.1.0(@babel/core@7.28.4)(@types/babel__core@7.20.5)(rollup@4.52.4)
-      '@rollup/plugin-terser': 0.4.4(rollup@4.52.4)
-      '@samual/lib': 0.13.1-5f3d742
-      babel-plugin-here: 1.0.3-e0fc72f
-      babel-plugin-vitest: 0.0.1-7dc1dde
-      defu: 6.1.4
-      rolldown: 1.0.0-beta.43
-      rollup-plugin-prettier: 4.1.2(prettier@3.6.2)(rollup@4.52.4)
-    transitivePeerDependencies:
-      - '@types/babel__core'
-      - prettier
-      - rollup
-      - supports-color
-
   '@napi-rs/wasm-runtime@1.0.7':
     dependencies:
       '@emnapi/core': 1.5.0
@@ -2079,6 +2060,26 @@ snapshots:
   '@samual/lib@0.13.1-5f3d742': {}
 
   '@samual/lib@0.13.1-e3379e2': {}
+
+  '@samual/rolldown-config@0.0.1-1055660(@types/babel__core@7.20.5)(prettier@3.6.2)(rollup@4.52.4)':
+    dependencies:
+      '@babel/core': 7.28.4
+      '@babel/plugin-syntax-typescript': 7.27.1(@babel/core@7.28.4)
+      '@babel/preset-env': 7.28.3(@babel/core@7.28.4)
+      '@babel/preset-typescript': 7.27.1(@babel/core@7.28.4)
+      '@rollup/plugin-babel': 6.1.0(@babel/core@7.28.4)(@types/babel__core@7.20.5)(rollup@4.52.4)
+      '@rollup/plugin-terser': 0.4.4(rollup@4.52.4)
+      '@samual/lib': 0.13.1-5f3d742
+      babel-plugin-here: 1.0.3-e0fc72f
+      babel-plugin-vitest: 0.0.1-7dc1dde
+      defu: 6.1.4
+      rolldown: 1.0.0-beta.43
+      rollup-plugin-prettier: 4.1.2(prettier@3.6.2)(rollup@4.52.4)
+    transitivePeerDependencies:
+      - '@types/babel__core'
+      - prettier
+      - rollup
+      - supports-color
 
   '@samual/types@0.0.2': {}
 
