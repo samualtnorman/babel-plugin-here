@@ -16,8 +16,19 @@
 	"author": "Samual Norman <me@samual.uk> (https://samual.uk/)",
 	"dependencies": {
 		"@babel/types": "^7.28.0",
-		"@samual/assert": "^0.0.1",
+		"@samual/assert": "^0.0.1"
+	},
+	"peerDependencies": {
+		"@babel/core": "^7.1.0",
 		"@types/babel__core": "^7.1.0"
+	},
+	"peerDependenciesMeta": {
+		"@babel/core": {
+			"optional": true
+		},
+		"@types/babel__core": {
+			"optional": true
+		}
 	},
 	"devDependencies": {
 		"@samual/rolldown-config": "0.0.1-1055660",
