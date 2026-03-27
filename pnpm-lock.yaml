@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@babel/types':
-        specifier: ^7.28.4
+        specifier: ^7.28.0
         version: 7.28.6
       '@samual/assert':
         specifier: ^0.0.1
