@@ -20,11 +20,7 @@ makeDirectorySync("dist", { recursive: true })
 
 const imports = Object.fromEntries(Object.entries({ ...dependencies, ...peerDependencies }).map(
 	([ name, version ]) => [
-		name.startsWith(`@types/`) ?
-			name.includes(`__`) ?
-				`@${name.slice(7, name.indexOf(`__`))}/${name.slice(name.indexOf(`__`) + 2)}`
-			: name.slice(7)
-		: name,
+		name,
 		`${name in ConvertToJsr ? `jsr:${ConvertToJsr[name]}` : `npm:${name}`}@${version}`
 	]
 ))
