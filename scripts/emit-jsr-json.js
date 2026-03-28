@@ -14,11 +14,11 @@ if (!process.env.FULL_ERROR) {
 	"@samual/assert": "@sn/assert"
 }
 
-const { version, license, dependencies } = packageJson
+const { version, license, dependencies, peerDependencies } = packageJson
 
 makeDirectorySync("dist", { recursive: true })
 
-const imports = Object.fromEntries(Object.entries(dependencies).map(
+const imports = Object.fromEntries(Object.entries({ ...dependencies, ...peerDependencies }).map(
 	([ name, version ]) => [
 		name.startsWith(`@types/`) ?
 			name.includes(`__`) ?
